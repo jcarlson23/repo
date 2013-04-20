@@ -435,7 +435,6 @@ def _FindRepo():
   """
   dir = os.getcwd()
   repo = None
-  pdb.set_trace()
 
   olddir = None
   while dir != '/' \
